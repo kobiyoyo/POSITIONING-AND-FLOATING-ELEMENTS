@@ -129,10 +129,37 @@ STYLING OF THE MAIN TAG*/
     background: #0066FF;
     color: white;
 }
+.firstTitle{
+  
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 30px;
+}
+.firstTitle h1{
+font-style: italic;
+font-size: 40px;
+text-align: left;
+}
+.alan{
+  width: 1200px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+.alan img{
+margin-top: 30px;
+  height: 675px;
+  width: 1200px;
+  display: block;
+  
+}
+.alan p{
+  margin-top: 10px;
+  font-size: 15px;
+}
 
 
 
-
+/*SECOND CONTENT*/
 
 
 
