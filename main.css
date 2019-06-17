@@ -6,48 +6,87 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 nav{
-
-	position: relative;
 	width: 100%;
-	height: 40px;
+	height: 57px;
 	position: fixed;
 	background-color: white;
-	 z-index: 1;
+    z-index: 1;
+    border-bottom: 1px solid  grey;
+   
 
 	
 }
+nav a{
+     color:black;
+}
 .navContent{
-	margin-top: 10px;
+  
+    width: 100%;
+   padding: 20px;
+    
+    text-align: center;
+    box-sizing: border-box;
+} 
+.rightLinks{
+    float: right;
+    
 }
 .leftLinks{
-	float: left;
-	    margin-left: 60px;
-	padding-left: 10px;
+    float:left;
+    margin-left: -14px;
+ 
 }
-.search{
-	margin-left: 27px;
+.menu , .search,.leftLinks > a{
+    margin-left:6px; 
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+}
+.menuTitle {
+    display:inline-block;
+}
+.menu , .search{
+   height:30px; 
+}
+.search > img,.menu > img {
+	   height:16px; 
+}
+.menu:hover{
+    background: #F7F7F7;
+    height:30px;
+}
+.search:hover{
+    background: #F7F7F7;
+    height:30px;
+}
+.link1:hover{
+   text-decoration: underline;
 }
 
-.link1{
-	    padding-left: 35px;
+.menuTitle >a {
+    text-decoration: none;
+    font-size: 25px
 }
-.rightLinks {
-	float: right;
-	    margin-right: 60px;
-	padding-right: 10px;
+.rightLinks >button > a {
+	text-decoration: none;
+     color: white;
+       font-size:11px;
 }
-.subscribe{
-	margin-right: 5px;
+.rightLinks > button {
+	background: #6288A5;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
 }
 
 
-.menuTitle{
-display:inline-block;
-position: relative;
-      left: 28%;
-      font-size: 25px;
 
-}
+
+
+
+
+
 /*
 STYLING OF THE MAIN TAG*/
 
@@ -72,7 +111,7 @@ width: 100%;
 .title{
 height: 19px;
 	text-align: center;
-	border-bottom: 1px solid grey;	
+
 }
 .title p{
 	font-size: 13px;
