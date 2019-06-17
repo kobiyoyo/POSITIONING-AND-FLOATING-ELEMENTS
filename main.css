@@ -131,8 +131,8 @@ STYLING OF THE MAIN TAG*/
 }
 .firstTitle{
   
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: 30px;
 }
 .firstTitle h1{
@@ -161,6 +161,40 @@ margin-top: 30px;
 
 /*SECOND CONTENT*/
 
+.secondContent{
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right:20px;
+    width:700px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.secondContent > .by {
+	width:100%;
+    margin-top: 90px;
+}
+.secondContent > .by > p {
+	float:left;
+    
+}
+.socialIcons > p{
+display: inline;    
+}
+.socialIcons>span>img{
+    height: 20px;
+
+    
+}
+
+.socialIcons{
+    display: inline;
+    
+}
+
+.socialIcons > span{
+ 
+    margin-left: 400px
+}
 
 
 
