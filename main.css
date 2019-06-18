@@ -169,32 +169,9 @@ margin-top: 30px;
     box-sizing: border-box;
     border: 1px solid red;
 }
-.secondContent > .by {
-	width:100%;
-    margin-top: 90px;
-}
-.secondContent > .by > p {
-	float:left;
-    
-}
-.socialIcons > p{
-display: inline;    
-}
+
 .socialIcons>span>img{
     height: 20px;
-
-    
 }
-
-.socialIcons{
-    display: inline;
-    
-}
-
-.socialIcons > span{
- 
-    margin-left: 400px
-}
-
 
 
