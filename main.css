@@ -218,3 +218,58 @@ margin-top: 30px;
  width: 900px;
 
 }
+.fourthContent{
+  display: flex;
+    width: 100%;
+ 
+
+    border: 1px red solid;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.fourthContent p{
+  width: 40%;
+
+}
+.subscribe{
+  text-align: center;
+  margin-top: 50px;
+}
+.asidePos > div > img{
+height: 75px;
+width: 105px;
+padding-top: 10px;
+
+}
+aside{
+  position: relative;
+}
+.asidePos{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 50px;
+  width: 250px;
+}
+
+.asidePos div{
+  display: flex;
+  flex-direction: row;
+}
+.asidePos a{
+margin-top: 20px;
+margin-left: 10px;
+}
+.fiftContent{
+   display: flex;
+    width: 100%;
+margin-top: 50px;
+    border: 1px red solid;
+    margin-top: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.fiftContent p{
+  width: 40%;
+}
