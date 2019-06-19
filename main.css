@@ -22,8 +22,7 @@ nav a{
 .navContent{
   
     width: 100%;
-   padding: 20px;
-    
+    padding: 20px;
     text-align: center;
     box-sizing: border-box;
 } 
@@ -79,10 +78,6 @@ nav a{
     border: none;
     border-radius: 4px;
 }
-
-
-
-
 
 
 
@@ -166,10 +161,10 @@ margin-top: 30px;
 .secondContent{
     display: flex;
     flex-direction: column;
-        width: 100%;
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid red;
-   align-items: center;
+    align-items: center;
    margin-top: 50px;
 
 }
@@ -219,14 +214,9 @@ margin-top: 30px;
 
 }
 .fourthContent{
-  display: flex;
-    width: 100%;
- 
-
     border: 1px red solid;
     margin-top: 20px;
     padding-top: 20px;
-    justify-content: center;
 }
 .fourthContent p{
   width: 40%;
@@ -250,7 +240,9 @@ aside{
   flex-direction: column;
   position: absolute;
   right: 50px;
-  width: 250px;
+  width: 270px;
+    padding: 5px;
+
 }
 
 .asidePos div{
@@ -262,14 +254,19 @@ margin-top: 20px;
 margin-left: 10px;
 }
 .fiftContent{
-   display: flex;
-    width: 100%;
-margin-top: 50px;
+    margin-top: 50px;
     border: 1px red solid;
-    margin-top: 20px;
     padding-top: 20px;
-    justify-content: center;
+    
 }
 .fiftContent p{
   width: 40%;
 }
+
+.container{
+     display: flex;
+    justify-content: center;
+     box-sizing: border-box;
+}
+
+
