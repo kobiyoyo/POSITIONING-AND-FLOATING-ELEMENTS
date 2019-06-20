@@ -285,7 +285,7 @@ margin-left: 10px;
   flex-direction: column;
   width: 180px;
   position: absolute;
-      right: -420px;
+   left: 590px;
 
 
 }
@@ -295,3 +295,38 @@ margin-left: 10px;
 .sidebarTwo > button{
   width: 100%;
 }
+.seventhContent{
+  margin-top: 50px;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+
+}
+.seventhContent > div{
+ width:70%;
+
+}
+.seventhContent div > img{
+    width: 885px;
+
+}
+.imageContent{
+    display: flex;
+    flex-direction: row;
+}
+.imageContent > p{
+   width: 200px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.byLarry{
+   margin: 20px;
+}
+.eightContent{
+  margin-top: 50px;
+    border: 1px red solid;
+    padding-top: 20px;
+
+}
+
+
