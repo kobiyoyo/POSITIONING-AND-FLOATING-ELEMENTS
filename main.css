@@ -218,10 +218,7 @@ margin-top: 30px;
     margin-top: 20px;
     padding-top: 20px;
 }
-.fourthContent p{
-  width: 40%;
 
-}
 .subscribe{
   text-align: center;
   margin-top: 50px;
@@ -259,9 +256,7 @@ margin-left: 10px;
     padding-top: 20px;
     
 }
-.fiftContent p{
-  width: 40%;
-}
+
 
 .container{
      display: flex;
@@ -270,3 +265,33 @@ margin-left: 10px;
 }
 
 
+.banSpace{
+    margin-top: 30px;
+}
+.sixContent{
+  margin-top: 50px;
+    border: 1px red solid;
+    padding-top: 20px;
+
+}
+
+.textWidth{
+  width: 40%;
+}
+
+
+.sidebarTwo{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  position: absolute;
+      right: -420px;
+
+
+}
+.sidebarTwo > p{
+   padding-top: 10px;
+}
+.sidebarTwo > button{
+  width: 100%;
+}
