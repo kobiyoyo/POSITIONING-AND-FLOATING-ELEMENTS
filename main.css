@@ -10,10 +10,11 @@ body {
 nav{
 	width: 100%;
 	height: 57px;
-/*	position: fixed;*/
+	position: fixed;
 	background-color: white;
     z-index: 1;
     margin: 0;
+    
 
 }
 nav a{
@@ -285,7 +286,8 @@ margin-left: 10px;
   flex-direction: column;
   width: 180px;
   position: absolute;
-   left: 590px;
+   right: 150px;
+      top: 165px;
 
 
 }
@@ -328,5 +330,36 @@ margin-left: 10px;
     padding-top: 20px;
 
 }
+.ninethContent{
+    margin-top: 50px;
+    border: 1px red solid;
+    padding-top: 20px;
 
+}
 
+.youtubeVideo{
+  padding-top: 30px;
+    width: 739px;
+
+}
+
+  iframe{
+    width: 739px;
+  
+   height:315px;
+}
+
+.tag{
+    margin-top: 15px;
+}
+.tenContent{
+    margin-top: 50px;
+    border: 1px red solid;
+    padding-top: 20px;
+}
+
+.eleventhContent{
+   margin-top: 50px;
+    border: 1px red solid;
+    padding-top: 20px;
+}
