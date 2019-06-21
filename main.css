@@ -314,6 +314,9 @@ margin-left: 10px;
 }
 .seventhContent div > img{
     width: 885px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 .imageContent{
@@ -326,7 +329,10 @@ margin-left: 10px;
     font-size: 13px;
 }
 .byLarry{
-   margin: 20px;
+       margin-left: 246px;
+       margin-top: 10px;
+
+
 }
 .eightContent{
   margin-top: 50px;
