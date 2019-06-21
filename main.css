@@ -8,78 +8,82 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 nav{
-	width: 100%;
-	height: 57px;
-	position: fixed;
-	background-color: white;
+   position: fixed;
+   width: 100%;
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   height: 40px;
+   justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 1px solid grey;
     z-index: 1;
-    margin: 0;
-    
-
+   
 }
-nav a{
-     color:black;
-}
-.navContent{
-  
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    box-sizing: border-box;
-} 
-.rightLinks{
-    float: right;
-    
-}
-.leftLinks{
-    float:left;
-    margin-left: -14px;
- 
-}
-.menu , .search,.leftLinks > a{
-    margin-left:6px; 
+nav a {
     text-decoration: none;
-    background: transparent;
+    color:black;
+}
+
+
+.menu img{
+  height: 15px;
+  width: 15px;
+}
+.search img{
+   height: 15px;
+  width: 15px;
+}
+.leftLinks > button{
     border: none;
-    font-size: 16px;
+    height: 30px;
+    width: 40px;
+    background: white;
+    margin-left: 5px;
 }
-.menuTitle {
-    display:inline-block;
+
+.leftLinks > a{
+    margin-left: 15px;
 }
-.menu , .search{
-   height:30px; 
+
+
+.rightLinks{
+  display: flex;
+ align-items: flex-end;
+  height: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
-.search > img,.menu > img {
-	   height:16px; 
+.rightLinks > button{
+    border: none;
+    background: #6288A5;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 5px; 
+  
 }
+.rightLinks > button > a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menuTitle  {
+	padding-top:6px;
+}
+.menuTitle a{
+	font-size: 23px;
+}
+
 .menu:hover{
     background: #F7F7F7;
-    height:30px;
+    
 }
 .search:hover{
     background: #F7F7F7;
-    height:30px;
 }
 .link1:hover{
    text-decoration: underline;
 }
-
-.menuTitle >a {
-    text-decoration: none;
-    font-size: 25px
-}
-.rightLinks >button > a {
-	text-decoration: none;
-     color: white;
-       font-size:11px;
-}
-.rightLinks > button {
-	background: #6288A5;
-    height: 30px;
-    border: none;
-    border-radius: 4px;
-}
-
 
 
 
@@ -339,13 +343,12 @@ margin-left: 10px;
 
 .youtubeVideo{
   padding-top: 30px;
-    width: 739px;
+    width:100%;
 
 }
 
   iframe{
-    width: 739px;
-  
+    width:100%;
    height:315px;
 }
 
