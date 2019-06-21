@@ -312,6 +312,10 @@ margin-left: 10px;
  width:70%;
 
 }
+.titleOfImg{
+width: 67%;
+    margin-left: 18%;
+}
 .seventhContent div > img{
     width: 885px;
     display: block;
