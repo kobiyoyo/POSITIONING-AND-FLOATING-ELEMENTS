@@ -309,35 +309,31 @@ margin-left: 10px;
 
 }
 .seventhContent > div{
- width:70%;
+     width:50%;
+   
 
 }
-.titleOfImg{
-width: 67%;
-    margin-left: 18%;
+.inflaTitle {
+	width:100%;
+}
+.byLarry {
+	margin-top: 20px;
+    margin-bottom: 20px;
 }
 .seventhContent div > img{
-    width: 885px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-
+   width: 795px;
 }
 .imageContent{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .imageContent > p{
-   width: 200px;
-    margin-left: 20px;
-    font-size: 13px;
-}
-.byLarry{
-       margin-left: 246px;
-       margin-top: 10px;
+      width: 200px;
 
-
+    font-size: 14px;
 }
+
 .eightContent{
   margin-top: 50px;
     border: 1px red solid;
@@ -402,4 +398,75 @@ color: grey;
    margin-top: 50px;
     border: 1px red solid;
     padding-top: 20px;
+}
+
+
+.fifteenthContent>div>div>img{
+    height: 25px;
+}
+
+.fifteenthContent>div>div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.fifteenthContent{
+       margin-top: 50px;
+    border: 1px red solid;
+    padding-top: 20px;
+}
+.thumbContent {
+	display:flex;
+    flex-direction: row;
+    padding: 20px;
+    border: 1px red solid;
+}
+.thumbImg{
+    display: flex;
+    flex-direction: column;
+   width: 70%;
+     border: 1px red solid;
+}
+.thumbColumn{
+    display: flex;
+    flex-direction:column;
+      width: 100%;
+     border: 1px red solid;
+}
+.thumbRow{
+    display: flex;
+    flex-direction:row;
+ 
+     border: 1px red solid;
+}
+.thumbarticles {
+	display: flex;
+    flex-direction: column;
+}
+.thumbarticles a,h1{
+font-size: 20px;
+    /* margin-top: 34px; */
+    padding-top: 17px;
+    border-width: 51%;
+    color: black;
+    width: 385px;
+    margin-left: 39px;
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+}
+.thumbarticles a:hover{
+ color: grey;
+   
+}
+
+.thumbColumn > p{
+    width: 74%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
+}
+.thumbColumn > img{
+      height: 233px;
+    width: 348px;
+    margin-top: 10px;
 }
