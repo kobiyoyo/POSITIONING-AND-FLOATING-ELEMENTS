@@ -6,6 +6,11 @@ body {
   margin: 0;
     width: 100%;
   font-family: Georgia, Times, "Times New Roman", serif;
+     font-size: 1.25rem;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav{
    position: fixed;
@@ -200,6 +205,18 @@ margin-top: 30px;
         
 }
 
+/*Content*/
+.content{
+     margin-top: 50px;
+}
+.seventhContent{
+  margin-top: 50px;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+
+}
+
 /*THIRD CONTENT*/
 .bannerTwo{
   display: flex;
@@ -218,11 +235,7 @@ margin-top: 30px;
  width: 900px;
 
 }
-.fourthContent{
-    border: 1px red solid;
-    margin-top: 20px;
-    padding-top: 20px;
-}
+
 
 .subscribe{
   text-align: center;
@@ -273,12 +286,7 @@ margin-left: 10px;
 .banSpace{
     margin-top: 30px;
 }
-.sixContent{
-  margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
 
-}
 
 .textWidth{
   width: 40%;
@@ -301,18 +309,18 @@ margin-left: 10px;
 .sidebarTwo > button{
   width: 100%;
 }
-.seventhContent{
-  margin-top: 50px;
-    border: 1px red solid;
-    display: flex;
-    justify-content: center;
 
-}
 .seventhContent > div{
      width:50%;
    
 
 }
+.fontText{
+    font-size: 12px;
+
+}
+
+
 .inflaTitle {
 	width:100%;
 }
@@ -321,7 +329,7 @@ margin-left: 10px;
     margin-bottom: 20px;
 }
 .seventhContent div > img{
-   width: 795px;
+      width: 664px;
 }
 .imageContent{
     display: flex;
@@ -330,22 +338,11 @@ margin-left: 10px;
 }
 .imageContent > p{
       width: 200px;
-
+padding-left: 15px;
     font-size: 14px;
 }
 
-.eightContent{
-  margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
 
-}
-.ninethContent{
-    margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-
-}
 
 .youtubeVideo{
   padding-top: 30px;
@@ -361,22 +358,9 @@ margin-left: 10px;
 .tag{
     margin-top: 15px;
 }
-.tenContent{
-    margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-}
 
-.eleventhContent{
-   margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-}
-.twelveContent{
-   margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-}
+
+
 .cosmosImg{
   width: 100%;
   margin-top: 40px;
@@ -389,17 +373,11 @@ margin-left: 10px;
 color: grey;
 
 }
-.thirteenContent{
-   margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-}
-.fourtheenContent{
-   margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-}
 
+.fifteenthContent{
+       margin-top: 50px;
+   
+}
 
 .fifteenthContent>div>div>img{
     height: 25px;
@@ -410,21 +388,17 @@ color: grey;
     display: flex;
     justify-content: flex-end;
 }
-.fifteenthContent{
-       margin-top: 50px;
-    border: 1px red solid;
-    padding-top: 20px;
-}
+
 .thumbContent {
 	display:flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 10px;
     border: 1px red solid;
 }
 .thumbImg{
     display: flex;
     flex-direction: column;
-   width: 70%;
+   width: 60%;
      border: 1px red solid;
 }
 .thumbColumn{
@@ -442,32 +416,29 @@ color: grey;
 .thumbarticles {
 	display: flex;
     flex-direction: column;
+        margin-left: 20px;
 }
-.thumbarticles a,h1{
-font-size: 20px;
+.thumbarticles > a,.thumbarticles > h1{
+    font-size: 19px;
     /* margin-top: 34px; */
     padding-top: 17px;
     border-width: 51%;
     color: black;
     width: 385px;
-    margin-left: 39px;
+    margin-left: 83px;
     text-decoration: none;
     border-bottom: 1px solid grey;
 }
-.thumbarticles a:hover{
- color: grey;
-   
-}
 
 .thumbColumn > p{
-    width: 74%;
-    font-size: 20px;
+        width: 100%;
+    font-size: 12px;
     text-align: center;
     margin-top: 16px;
 }
 .thumbColumn > img{
-      height: 233px;
-    width: 348px;
+height: 178px;
+    width: 272px;
     margin-top: 10px;
 }
 footer{
@@ -476,7 +447,8 @@ footer{
   justify-content: center;
 }
 .footerWidth{
-  width: 50%;
+  width: 100%;
+    padding:20px;
 
 }
 .footerContent{
@@ -500,6 +472,11 @@ padding-top: 15px;
 }
 .footerTitle a{
   margin-left: auto;
+       color: rgb(98, 136, 165);
+    font-family: nyt-franklin;
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 
 }
 .footerTitle h2{
@@ -509,5 +486,27 @@ font-size: 20px;
   color: black;
   text-decoration: none;
   margin-top: 5px;
+    margin-bottom: 7px;
 
+}
+.footerLinks > p{
+ 
+    margin-bottom: 7px;
+
+}
+.footerYear {
+	display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.footerYear > a , .footerYear > p  {
+	color: grey;
+    margin-top: 20px;
+    margin-left: 10px;
+        padding-top: 15px;
+        font-size: 13px;
+}
+
+.bold{
+    font-weight: 800;
 }
