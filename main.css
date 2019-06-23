@@ -470,3 +470,44 @@ font-size: 20px;
     width: 348px;
     margin-top: 10px;
 }
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footerWidth{
+  width: 50%;
+
+}
+.footerContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+.footerLinks{
+  display: flex;
+  flex-direction: column;
+    
+}
+.footerTitle{
+     display: flex;
+    justify-content: flex-start;
+padding-top: 15px;
+    padding-bottom: 25px;
+     box-sizing: border-box;
+}
+.footerTitle a{
+  margin-left: auto;
+
+}
+.footerTitle h2{
+font-size: 20px;
+}
+ .footerLinks > a{
+  color: black;
+  text-decoration: none;
+  margin-top: 5px;
+
+}
