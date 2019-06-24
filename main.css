@@ -293,8 +293,9 @@ aside {
     color: black;
     text-decoration: none;
 }
-.asidePos a:hover{
-text-decoration: underline;
+
+.asidePos a:hover {
+    text-decoration: underline;
 }
 
 .fiftContent {
@@ -339,7 +340,7 @@ text-decoration: underline;
 
 .sidebarTwo > button {
     width: 100%;
-       border: none;
+    border: none;
     background: #6288A5;
     height: 25px;
     border-radius: 5px;
@@ -360,7 +361,7 @@ text-decoration: underline;
 
 .inflaTitle {
     width: 100%;
-    
+
 
 }
 
@@ -370,10 +371,10 @@ text-decoration: underline;
 }
 
 .seventhContent div > img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-          width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .imageContent {
@@ -439,61 +440,83 @@ iframe {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    
+    margin-top: 70px;
 }
 
 .thumbImg {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    
+    width: 100%;
+
 }
 
 .thumbColumn {
     display: flex;
     flex-direction: column;
     width: 100%;
-   
+
 }
 
 .thumbRow {
     display: flex;
     flex-direction: row;
 
-    
+
 }
 
 .thumbarticles {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+
 }
 
 .thumbarticles > a,
 .thumbarticles > h1 {
-    font-size: 19px;
-    /* margin-top: 34px; */
+    font-size: 18px;
+    margin-left: 15px;
     padding-top: 17px;
     border-width: 51%;
     color: black;
     width: 385px;
-    margin-left: 83px;
     text-decoration: none;
-    border-bottom: 1px solid grey;
+    padding-bottom: 9px;
+
 }
 
 .thumbColumn > p {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin-top: 16px;
+    font-weight: 600;
+
 }
 
 .thumbColumn > img {
     height: 178px;
     width: 272px;
     margin-top: 10px;
+    margin-right: 10px;
 }
+
+.thumbImg > h2 {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.thumbDivider {
+    border-bottom: 2px solid grey;
+    width: 93%;
+    margin-left: 18px;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 1px;
+
+}
+
 
 footer {
     width: 100%;
@@ -548,11 +571,12 @@ footer {
     text-decoration: none;
     margin-top: 5px;
     margin-bottom: 7px;
+    font-size: 14px;
 
 }
 
 .footerLinks > p {
-
+    font-size: 17px;
     margin-bottom: 7px;
 
 }
@@ -561,6 +585,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .footerYear > a,
