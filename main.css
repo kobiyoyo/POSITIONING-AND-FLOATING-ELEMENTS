@@ -1,0 +1,626 @@
+/*STYLING OF THE NAV*/
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.25rem;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: 1px solid grey;
+    z-index: 1;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu img {
+    height: 15px;
+    width: 15px;
+}
+
+.search img {
+    height: 15px;
+    width: 15px;
+}
+
+.leftLinks > button {
+    border: none;
+    height: 30px;
+    width: 40px;
+    background: white;
+    margin-left: 5px;
+}
+
+.leftLinks > a {
+    margin-left: 15px;
+}
+
+
+.rightLinks {
+    display: flex;
+    align-items: flex-end;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.rightLinks > button {
+    border: none;
+    background: #6288A5;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+
+.rightLinks > button > a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.menuTitle {
+    padding-top: 6px;
+}
+
+.menuTitle a {
+    font-size: 23px;
+}
+
+.menu:hover {
+    background: #F7F7F7;
+
+}
+
+.search:hover {
+    background: #F7F7F7;
+}
+
+.link1:hover {
+    text-decoration: underline;
+}
+
+
+
+/*
+STYLING OF THE MAIN TAG*/
+
+main {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 310px;
+    background: #F7F7F7;
+    margin-top: 20px;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-left: 11%;
+    padding-top: 2%;
+
+}
+
+.bannerImg > figure > img {
+    height: 268px
+}
+
+.bannerLinks {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.bannerLinks > a {
+    margin-top: 20px;
+    color: black;
+
+}
+
+.bannerLinks > button {
+    margin-top: 20px;
+    border: none;
+    height: 30px;
+    background: #0066FF;
+    color: white;
+}
+
+.firstTitle {
+
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+}
+
+.firstTitle h1 {
+    font-style: italic;
+    font-size: 40px;
+    text-align: left;
+}
+
+.alan {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.alan img {
+    margin-top: 30px;
+    height: 675px;
+    width: 1200px;
+    display: block;
+
+}
+figcaption{
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+
+/*SECOND CONTENT*/
+
+.secondContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.firstPar {
+    width: 40%;
+}
+
+.socialIcons > div > img {
+    height: 20px;
+}
+
+.by {
+    width: 100%;
+    margin-bottom: 20px;
+
+
+
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.socialIcons > p {
+    margin-right: auto;
+
+
+}
+
+/*Content*/
+
+.content {
+    margin-top: 50px;
+}
+
+.seventhContent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*THIRD CONTENT*/
+
+.bannerTwo {
+    display: flex;
+    width: 100%;
+    height: 310px;
+    background: #F7F7F7;
+    margin-top: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.bannerImgTwo > figure >  img {
+    height: 250px;
+    width: 900px;
+
+}
+
+
+.subscribe {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.asidePos > div > figure > img {
+    height: 75px;
+    width: 105px;
+    padding-top: 10px;
+
+}
+
+aside {
+    position: relative;
+}
+
+.asidePos {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    width: 270px;
+    padding: 5px;
+
+}
+
+.asidePos div {
+    display: flex;
+    flex-direction: row;
+}
+
+.asidePos  a {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.asidePos a:hover {
+    text-decoration: underline;
+}
+
+.fiftContent {
+    margin-top: 50px;
+    padding-top: 20px;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.banSpace {
+    margin-top: 30px;
+}
+
+
+.textWidth {
+    width: 40%;
+}
+
+
+.sidebarTwo {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    position: absolute;
+    right: 150px;
+    top: 165px;
+
+
+
+}
+
+.sidebarTwo > p {
+    padding-top: 10px;
+}
+
+.sidebarTwo > button {
+    width: 100%;
+    border: none;
+    background: #6288A5;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+.seventhContent > div {
+    width: 50%;
+
+
+}
+
+.fontText {
+    font-size: 12px;
+
+}
+
+
+.inflaTitle {
+    width: 100%;
+
+
+}
+
+.byLarry {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.seventhContent div > figure > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.imageContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imageContent > p {
+    width: 200px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+
+
+.youtubeVideo > figure {
+    padding-top: 30px;
+    width: 100%;
+
+}
+
+.youtubeVideo > figure > iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.tag {
+    margin-top: 15px;
+}
+
+
+
+.cosmosImg {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.byWho {
+    font-size: 12px;
+    color: grey;
+
+}
+
+.fifteenthContent {
+    margin-top: 50px;
+
+}
+
+.fifteenthContent > div > div > div > img {
+    height: 25px;
+}
+
+.fifteenthContent > div > div > div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.shareComment{
+    display: flex;
+    flex-direction: row;
+}
+.comments{
+      border: none;
+    background: #6288A5;
+    height: 40px;
+    width: 18rem;
+    border-radius: 5px;
+}
+.comments a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.thumbContent {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.thumbImg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.thumbColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.thumbRow {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.thumbarticles {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thumbarticles > a,
+.thumbarticles > h1 {
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 17px;
+    border-width: 51%;
+    color: black;
+    width: 385px;
+    text-decoration: none;
+    padding-bottom: 9px;
+
+}
+
+.thumbColumn > p {
+       width: 15rem;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 16px;
+    font-weight: 600;
+
+}
+
+.thumbColumn >figure > img {
+    height: 178px;
+        width: 16rem;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.thumbImg > h2 {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.thumbDivider {
+    border-bottom: 2px solid grey;
+    width: 93%;
+    margin-left: 18px;
+}
+.thumbColumn > figure >figcaption {
+	width: 13rem;
+    font-size: 10px;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 1px;
+
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerWidth {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerTitle {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.goHome{
+    margin-left: auto;
+    color: rgb(98, 136, 165);
+    font-family: nyt-franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.newYork {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.footerLinks > a {
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 14px;
+
+}
+
+.footerLinks > p {
+    font-size: 17px;
+    margin-bottom: 7px;
+
+}
+
+.footerYear {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.footerYear > a,
+.footerYear > p {
+    color: grey;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: 800;
+}
