@@ -443,7 +443,7 @@ aside {
       border: none;
     background: #6288A5;
     height: 40px;
-    width: 250px;
+    width: 18rem;
     border-radius: 5px;
 }
 .comments a{
@@ -500,9 +500,9 @@ aside {
 }
 
 .thumbColumn > p {
-      width: 55%;
+       width: 15rem;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     margin-top: 16px;
     font-weight: 600;
 
@@ -510,7 +510,7 @@ aside {
 
 .thumbColumn >figure > img {
     height: 178px;
-    width: 272px;
+        width: 16rem;
     margin-top: 10px;
     margin-right: 10px;
 }
@@ -524,6 +524,10 @@ aside {
     border-bottom: 2px solid grey;
     width: 93%;
     margin-left: 18px;
+}
+.thumbColumn > figure >figcaption {
+	width: 13rem;
+    font-size: 10px;
 }
 
 .divider {
