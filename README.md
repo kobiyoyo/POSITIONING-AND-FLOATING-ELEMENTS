@@ -16,8 +16,7 @@ valuable practice.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kobiyoyo/POSITIONING-AND-FLOATING-ELEMENTS
-/master/index.html)
+[Live Demo Link](https://raw.githack.com/kobiyoyo/POSITIONING-AND-FLOATING-ELEMENTS/master/index.html)
 
 ## Authors
 
